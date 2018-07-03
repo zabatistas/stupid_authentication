@@ -1,0 +1,95 @@
+.App {
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.LoginForm{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.LoginForm input[type="text"],
+.LoginForm input[type="password"] {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.LoginForm input[type="text"]:focus,
+.LoginForm input[type="password"]:focus {
+    background: #d2d9dd;
+}
+
+.LoginForm input[type="submit"] {
+    position: relative;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.LoginForm input[type="submit"]:hover {
+    background: #109177;
+}
+
+.Menu{
+  height: 100%;
+  background: rgba(200,200,200,.1);
+}
+
+.MenuItem{
+  width: 50%;
+  height: 100px;
+  display: flex;
+  border: 1px solid #000000;
+  border-width: 1px 1px 1px;
+  margin: 50px;
+}
+
+.MenuItem img{
+  padding: 2px;
+}

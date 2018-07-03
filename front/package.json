@@ -1,0 +1,33 @@
+{
+  "name": "tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.14",
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "redux": "^3.7.2",
+    "redux-auth-wrapper": "^2.0.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "redis": "npm run redis:remove && npm run redis:start",
+    "redis:start": "docker run --name redis-test -p 6379:6379 -d redis",
+    "redis:remove": "docker rm -f redis-test &> /dev/null || true"
+  }
+}
